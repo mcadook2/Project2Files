@@ -102,7 +102,7 @@ int main() {
       DrawBall(oldX, oldY, ballX, ballY, ballColor);
     }
 
-    //ShutdownCursesDisplay();
+    ShutdownCursesDisplay();
     cout << "... Display is closed." << endl;
     cout << "Display Dim:  " << width << "  " << height << endl;
 
